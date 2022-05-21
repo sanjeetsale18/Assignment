@@ -3,7 +3,8 @@ import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import PostList from "../Component/PostList.js";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+require("react-dom");
 
 function App() {
   const [searchPost, setSerachPost] = useState([]);
@@ -60,8 +61,12 @@ function App() {
       ) : (
         <div>
           {searchPost.map((item) => {
-            const { title, points, comment } = item;
-            return <PostList title={title} points={points} comment={comment} />;
+            const { title, points, comment, objectID } = item;
+            return (
+              <Link to={`/${objectID}`}>
+                <PostList title={title} points={points} comment={comment} />
+              </Link>
+            );
           })}{" "}
         </div>
       )}
