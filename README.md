@@ -1,6 +1,6 @@
 # assignment
 
-Hybr1d Assignmnet for interview selection
+Hybr1d Assignment for interview selection
 
 Requirement :
 
@@ -22,7 +22,7 @@ Solution:
 HomeScreen:
 ![image](https://user-images.githubusercontent.com/80786320/169683955-197b18bf-99dd-46fd-9427-40b5c2d0a841.png)
 
-After keyword search 
+The Searched result after entering the keyword
 ![image](https://user-images.githubusercontent.com/80786320/169683993-e556ee21-f176-4a21-887e-d9526b889e02.png)
 
 
