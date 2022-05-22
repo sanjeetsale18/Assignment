@@ -17,4 +17,14 @@ Post detail screen:
 -Lis of Post Comments 
 
 
+Solution:
 
+HomeScreen:
+![image](https://user-images.githubusercontent.com/80786320/169683955-197b18bf-99dd-46fd-9427-40b5c2d0a841.png)
+
+After keyword search 
+![image](https://user-images.githubusercontent.com/80786320/169683993-e556ee21-f176-4a21-887e-d9526b889e02.png)
+
+
+Post Details page of selected post withh title,points and all the comments with author name
+![image](https://user-images.githubusercontent.com/80786320/169684091-7d9bbd30-0c90-465b-a548-9639324bda69.png)
